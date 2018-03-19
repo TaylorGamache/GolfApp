@@ -133,7 +133,7 @@ public class DBcommands {
 				+ " Email TEXT, \n"
 				+ " CourseID Integer \n"
 				+ ");";
-		//String q = "INSERT INTO Golfer\n VALUES('mache','tgamache2016@gmail.com','GAMtay1022',47.33,3,25.14)";
+		
 		System.out.println(DBcommands.insertSQL(q));
 		System.out.println(DBcommands.insertSQL(q1));
 		System.out.println(DBcommands.insertSQL(q2));
